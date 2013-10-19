@@ -1,0 +1,61 @@
+@page {
+	margin:0;
+	size: A4 portrait;
+}
+
+/*a4 is 210 x 297 mm*/
+html, body {
+	width:210mm;
+	font-family: Georgia, serif;
+}
+
+.paper {
+	padding: 1.5cm 2cm 1cm;
+	page-break-inside: avoid;
+	position:relative;
+	width:210mm;
+}
+
+* {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+
+}
+
+.circle-name {
+	float:right;
+	text-align: right;
+}
+
+.circle-date {
+	float:left;
+	text-align:left;
+}
+
+.circle-name, .circle-date, .tasks {
+	line-height: 7mm;
+}
+
+h1 {
+	text-align:center;
+	padding-top: 1.5cm;
+	padding-bottom: 9mm;
+	font-size: 6.5mm;
+	font-weight:bold;
+}
+
+.task {
+	margin-bottom: 4mm;
+}
+
+.task-no {
+	font-style: italic;
+	padding-right: 2mm;
+	font-size: 1.2em
+}
+
+blockquote {
+	padding-left: 2cm;
+}
+
+q {padding-left: 7mm;}
