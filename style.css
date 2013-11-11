@@ -59,3 +59,5 @@ blockquote {
 }
 
 q {padding-left: 7mm;}
+
+var {white-space:nowrap;}
