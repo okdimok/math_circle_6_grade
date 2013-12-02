@@ -16,6 +16,10 @@ html, body {
 	width:210mm;
 }
 
+.task {
+	page-break-inside: avoid;
+}
+
 * {
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
@@ -46,6 +50,7 @@ h1 {
 
 .task {
 	margin-bottom: 4mm;
+	/*text-align:justify;*/
 }
 
 .task-no {
@@ -61,3 +66,5 @@ blockquote {
 q {padding-left: 7mm;}
 
 var {white-space:nowrap;}
+
+
